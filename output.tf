@@ -1,3 +1,3 @@
 output "ip_address" {
-  value = "${aws_instance.web[*].public.ip}"
+  value = aws_instance.web.public.ip
 }
